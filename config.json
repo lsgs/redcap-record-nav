@@ -1,0 +1,21 @@
+{
+    "name": "Record Navigation: Previous and Next Record",
+    "description": "Provides additional previous/next record navigation capabilities in the Data Collection section of the project page menu, and (optionally) on Record Home pages.",
+    "namespace": "MCRI\\RecordNav",
+    "authors": [
+        {
+            "name": "Luke Stevens",
+            "email": "luke.stevens@mcri.edu.au",
+            "institution": "Murdoch Children's Research Institute"
+        }
+    ],
+    "framework-version": 16,
+    "system-settings": [ ],
+    "project-settings": [
+        {
+            "key": "enable-rec-home-nav",
+            "name": "<b>Enable previous/next record navigation buttons on Record Home pages?</b>",
+            "type": "checkbox"
+        }
+    ]
+}
